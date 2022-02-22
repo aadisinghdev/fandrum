@@ -1,0 +1,138 @@
+
+@media only screen and (max-width: 1199px) {
+	.shadow-background {
+		position: fixed;
+		background: #000000c9;
+		width: 100%;
+		height: 100%;
+		z-index: 10;
+		display: none;
+	}
+	.chat-section {
+		position: fixed;
+		z-index: 999;
+		display: none;
+		width: 50%;
+   	}
+	.dashboard-section{
+		 margin: 0 auto 0 270px;
+		 width: calc(100% - 270px);
+	}	
+}
+@media only screen and (max-width: 1039px) {
+	.dashboard-section.inner-dashboard {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 991px) {	
+	.w-lg-50-100 {
+		width: 100%;
+	}
+	.brand-logo {
+		padding: 30px 30px 25px 30px;
+	}
+	.back-button {
+		left: 15px;
+		top:30px
+	}
+	.menu {
+		padding-left: 20px;
+	}
+	.services {
+		padding: 20px;
+	}
+   .logo-and-menu-section {
+		width: 160px;
+	}
+   .dashboard-section {
+		width: calc(100% - 160px);
+		margin: 0 auto 0 160px;
+	}
+	.wh-75 {
+		width: 50px;
+		height: 50px;
+	}	
+	.dashboard-post-box .w-50 {
+		width: 75%!important;
+	}
+	.dashboard-post-box .play-icon {
+		right: 11%;
+	}
+	.chat-section {		
+		width: 60%;
+   	}
+}
+@media only screen and (max-width: 767px) {	
+	.w-md-50-100 {
+		width: 100%;
+	}
+	.dashboard-post-box .w-50 {
+		width: 100%!important;
+	}
+		
+		.dashboard-post-box .play-icon {
+			top: 50%;
+			left: 0px;
+			right: 0px;
+			text-align: center;
+		
+	}
+	.custom-scroll-buttons {
+		overflow: scroll;
+	}
+	.pr-35 {
+		padding-right: 20px;
+	}
+	.dashboard-post-box {
+		padding: 75px 0px 35px 20px;
+	}
+	.dashboard-post-box.banner-2 {
+		padding: 20px;
+	}
+	.inner-banner-img{
+		max-height: 411px;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width: 600px) {	
+	.chat-section {		
+		width: 80%;
+   	}
+	.back-button {
+		left: 0px;
+		z-index: 99;
+		top:10px
+	}
+	.logo-and-menu-section {		
+		position: fixed;
+		z-index: 999;
+		display: none;
+		width: 70%;		
+	}
+	.logo-and-menu-section .brand-logo {
+		display: none;
+	}	
+	.menu {
+		padding-top: 40px;
+	}
+	.dashboard-section {
+		width: 100%;
+		margin: 0 auto;
+		padding: 25px 15px;
+	}
+	.custom-serach-box {
+		width: 100%;
+	}
+	.bg-img-show {
+		height: 405px;
+	}
+	.logo-responsive {
+		display: flex;
+	}
+	.logo-responsive .brand-logo {
+		padding: 0;
+		width: 170px;
+		margin: 0 auto;
+	}
+}
